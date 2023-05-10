@@ -67,7 +67,6 @@
 
 // ---------------------------
 
-
 // const str = ['1','2','3','4','5','6','7','8','9']
 
 // const newStr = str.map(Number)
@@ -76,3 +75,44 @@
 
 // -------------------------------------------------------
 
+// fillter method
+
+// const arring = [1,2,3,4,5,6,7,8,9,10]
+
+// const filtering = arring.filter((value)=>{
+//     return value % 2 === 0
+// })
+
+// console.log(filtering)
+
+
+// -------------------------------------------------------
+
+// const obj = [
+//     {
+//         name : 'Danish-chouhan',
+//         age  : 17
+//     },
+//     {
+//         name : 'fayyaz',
+//         age  : 18
+//     },
+//     {
+//         name : 'ayaz',
+//         age  : 12
+//     }
+// ];
+
+// const newFilters = obj.filter((value)=>{
+//     return value.age >= 15
+// })
+// console.log(newFilters)
+
+
+// -------------------------------------------------------
+
+// const num = [1,2,2,3,4,4,5,6,7,8,9,10];
+// const nums = num.filter((value,index,arr)=>{
+//     return arr.indexOf(value) === index
+// })
+// console.log(nums);
