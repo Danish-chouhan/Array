@@ -24,4 +24,55 @@
 // })
 // console.log(obj)
 
+// ----------------------------
+
+// Map method
+
+// const map = [1,2,3,4,5,6,7,8,9,10]
+
+// const newMap = map.map((item,index)=>{
+//     console.log(item * 2)
+// })
+
+// const newMap = map.map((item,index)=>{
+//     console.log(item * index)
+// })
+
+// -------------------------
+
+// const obj = [
+//     {
+//         name : "computer",
+//         price : 30000,
+//         qunt : 6
+//     },
+//     {
+//         name : "leptop",
+//         price : 20000,
+//         qunt : 5
+//     },
+//     {
+//         name : "mobile",
+//         price : 15000,
+//         qunt : 10
+//     }
+// ]
+
+// const newMap = obj.map(item=> ({
+//     productName : item.name,
+//    totalPrice : (item.price * item.qunt)
+// }))
+
+// console.log(newMap)
+
+// ---------------------------
+
+
+// const str = ['1','2','3','4','5','6','7','8','9']
+
+// const newStr = str.map(Number)
+
+// console.log(newStr)
+
+// -------------------------------------------------------
 
