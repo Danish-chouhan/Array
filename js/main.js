@@ -142,3 +142,29 @@
 // loop.forEach(fn,thisarg)
 
 // ----------------------------------------
+
+// const num = [1,2,3,4,5,6,7,8,9,10]
+
+// const sqr = []
+
+// for(let i=0; i<num.length; i++){
+//     sqr[i] = num[i] * num[i]
+// }
+// console.log(sqr)
+// console.log("Danish") 
+
+// ----------------------------------------
+
+const arr = [1,2,3,4,5,6,7,8,9,10]
+
+const obj = {
+    name : 'Danish'
+}
+
+const newArr = arr.filter(function(value){
+    console.log(this);
+    return value > 5
+},obj)
+
+
+console.log(newArr)
