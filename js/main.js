@@ -85,7 +85,6 @@
 
 // console.log(filtering)
 
-
 // -------------------------------------------------------
 
 // const obj = [
@@ -107,7 +106,6 @@
 //     return value.age >= 15
 // })
 // console.log(newFilters)
-
 
 // -------------------------------------------------------
 
@@ -151,7 +149,7 @@
 //     sqr[i] = num[i] * num[i]
 // }
 // console.log(sqr)
-// console.log("Danish") 
+// console.log("Danish")
 
 // ----------------------------------------
 
@@ -163,8 +161,21 @@
 
 // const newArr = arr.filter(function(value){
 //     console.log(this);
-//     return value > 5
+//     return   value > 5
 // },obj)
 
-
 // console.log(newArr)
+
+// ----------------------------------------
+
+const finding = [
+  { name: "Danish", age: 17, gender: "Male" },
+  { name: "fayyaz" , age: 18, gender: "Male"},
+  {name : "nabeel", age: 19, gender: "Male"},
+  {name : "vajeela", age: 17, gender: "Female"}
+];
+
+const fnd = finding.find((value)=>{
+    return value.gender === "Female"
+})
+console.log(fnd)
