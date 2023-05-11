@@ -155,16 +155,16 @@
 
 // ----------------------------------------
 
-const arr = [1,2,3,4,5,6,7,8,9,10]
+// const arr = [1,2,3,4,5,6,7,8,9,10]
 
-const obj = {
-    name : 'Danish'
-}
+// const obj = {
+//     name : 'Danish'
+// }
 
-const newArr = arr.filter(function(value){
-    console.log(this);
-    return value > 5
-},obj)
+// const newArr = arr.filter(function(value){
+//     console.log(this);
+//     return value > 5
+// },obj)
 
 
-console.log(newArr)
+// console.log(newArr)
