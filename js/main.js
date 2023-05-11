@@ -116,3 +116,29 @@
 //     return arr.indexOf(value) === index
 // })
 // console.log(nums);
+
+// ---------------------------------------------
+
+// const loop = ["a", "b", "c", "d", "e", "f"]
+
+// for(let i=0; i<loop.length; i++){
+//     // console.log('length is ' + i)
+//     console.log("index" +loop[i])
+// }
+
+// loop.forEach((element,index)=>{
+//     console.log(`on the index ${index} the element is ${element}`)
+//   })
+
+// function fn(element,index,array){
+//     console.log(this)
+// }
+
+// const thisarg = {
+//     name : 'Danish',
+//     element : loop,
+//     array : loop
+// }
+// loop.forEach(fn,thisarg)
+
+// ----------------------------------------
