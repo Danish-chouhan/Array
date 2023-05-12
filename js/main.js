@@ -173,7 +173,7 @@
 //   { name: "fayyaz" , age: 18, gender: "Male"},
 //   {name : "nabeel", age: 19, gender: "Male"},
 //   {name : "vajeela", age: 17, gender: "Female"}
-// ];  
+// ];
 
 // const fnd = finding.find((value)=>{
 //     // console.log(this)
@@ -225,7 +225,6 @@
 
 // ---------------------------------
 
-
 // const fndI = [1,2,3,4,5];
 
 // console.log(fndI.findIndex(ele => ele > 3))
@@ -243,7 +242,6 @@
 // console.log(fndLI.findLastIndex(ele => ele < 4))
 
 // --------------------------------
-
 
 // const flt = [1,2,[3],[4,[[[[[[[3]]]]]]], 5]];
 
@@ -264,3 +262,13 @@
 
 // const inc = [1,2,3,4,5];
 // console.log(inc.includes(3))
+
+// ----------------------------------
+
+// const indeof = [1,2,3,4,5,"Danish"];
+// console.log(indeof.indexOf("Danish"));
+
+// ----------------------------------
+
+const isA = { name: "English", is: [1, 2, 3]};
+console.log(Array.isArray(isA));
