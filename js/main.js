@@ -209,6 +209,10 @@
 
 // console.log(vajla.every(ele => ele < 10))
 
-const fillM = [1,2,3,4,5];
+// const fillM = [1,2,3,4,5];
 
-console.log(fillM.fill(0,1,3))
+// console.log(fillM.fill(0,1,3))
+
+// const fltr = [1,2,3,4,5,7,6];
+
+// console.log(fltr.filter(ele => ele % 2 !== 0))
