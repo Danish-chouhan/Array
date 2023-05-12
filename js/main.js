@@ -189,6 +189,11 @@
 // console.log(fnd1)
 
 
-const att = [1,2,3,4,5]
-const att2 = att.at(2)
-console.log(att2)
+// const att = [1,2,3,4,5]
+// const att2 = att.at(2)
+// console.log(att2)
+
+// const conc = [1,2,3,4,5];
+// const conc2 = [6,7,8,9,10]
+// console.log(conc.concat(conc2));
+
