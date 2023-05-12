@@ -219,6 +219,13 @@
 
 // --------------------------------
 
-const fnd = [1,2,3,4,5];
+// const fnd = [1,2,3,4,5];
 
-console.log(fnd.find(ele => ele > 3))
+// console.log(fnd.find(ele => ele > 3))
+
+// ---------------------------------
+
+
+const fndI = [1,2,3,4,5];
+
+console.log(fndI.findIndex(ele => ele > 3))
