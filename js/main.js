@@ -168,14 +168,27 @@
 
 // ----------------------------------------
 
-const finding = [
-  { name: "Danish", age: 17, gender: "Male" },
-  { name: "fayyaz" , age: 18, gender: "Male"},
-  {name : "nabeel", age: 19, gender: "Male"},
-  {name : "vajeela", age: 17, gender: "Female"}
-];
+// const finding = [
+//   { name: "Danish", age: 17, gender: "Male" },
+//   { name: "fayyaz" , age: 18, gender: "Male"},
+//   {name : "nabeel", age: 19, gender: "Male"},
+//   {name : "vajeela", age: 17, gender: "Female"}
+// ];  
 
-const fnd = finding.find((value)=>{
-    return value.gender === "Female"
-})
-console.log(fnd)
+// const fnd = finding.find((value)=>{
+//     // console.log(this)
+//     return value.gender === "Female"
+// })
+// console.log(fnd)
+// // console.log(finding)
+
+// const fnd1 = finding.findIndex((value)=>{
+//     // console.log(this)
+//     return value.gender === "Female"
+// })
+// console.log(fnd1)
+
+
+const att = [1,2,3,4,5]
+const att2 = att.at(2)
+console.log(att2)
