@@ -250,3 +250,14 @@
 // console.log(flt.flat())
 
 // --------------------------------
+
+// const forE = [1,2,3,4,5];
+
+// forE.forEach(ele => console.log(ele))
+
+// ----------------------------------
+
+// const frm = Array.from("Danish");
+// console.log(frm);
+
+// ----------------------------------
