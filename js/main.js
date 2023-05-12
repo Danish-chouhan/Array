@@ -270,5 +270,38 @@
 
 // ----------------------------------
 
-const isA = { name: "English", is: [1, 2, 3]};
-console.log(Array.isArray(isA));
+// const isA = { name: "English", is: [1, 2, 3]};
+// console.log(Array.isArray(isA));
+
+// ----------------------------------
+
+// const jon = [1,2,3,4,5];
+// console.log(jon.join("-----"))
+
+// ----------------------------------
+
+// const kes = [1,2,3,4,5];
+// const kss = kes.keys()
+// for(let keyss of kss){
+//     console.log(keyss);
+// }
+
+// ----------------------------------
+
+// const lIO = ["Danish","fayyaz","Danish","Hamza"];
+
+// console.log(lIO.lastIndexOf("Danish"));
+
+// ----------------------------------
+
+// const off = Array.of("Danish-chouhan",12,'Fayyaz');
+// console.log(off);
+// ----------------------------------
+
+// const array1 = [0, 1,2, 3, 4, 5];
+
+// const result = array1.reduceRight((accumulator, currentValue) => accumulator + currentValue);
+
+// console.log(result);
+
+// -----------------------------------
