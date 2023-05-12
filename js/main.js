@@ -226,6 +226,27 @@
 // ---------------------------------
 
 
-const fndI = [1,2,3,4,5];
+// const fndI = [1,2,3,4,5];
 
-console.log(fndI.findIndex(ele => ele > 3))
+// console.log(fndI.findIndex(ele => ele > 3))
+
+// --------------------------------
+
+// const fndL = [1,2,3,4,5];
+
+// console.log(fndL.findLast(ele => ele < 3))
+
+// --------------------------------
+
+// const fndLI = [1,2,3,4,5];
+
+// console.log(fndLI.findLastIndex(ele => ele < 4))
+
+// --------------------------------
+
+
+// const flt = [1,2,[3],[4,[[[[[[[3]]]]]]], 5]];
+
+// console.log(flt.flat())
+
+// --------------------------------
