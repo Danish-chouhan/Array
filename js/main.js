@@ -188,7 +188,6 @@
 // })
 // console.log(fnd1)
 
-
 // const att = [1,2,3,4,5]
 // const att2 = att.at(2)
 // console.log(att2)
@@ -197,3 +196,19 @@
 // const conc2 = [6,7,8,9,10]
 // console.log(conc.concat(conc2));
 
+// const cwi = [1,2,3,4,5];
+// const cwi2 =  cwi.copyWithin(0,2,4)
+// console.log(cwi2)
+
+// const array = [1,2,3,4,5];
+// const items = array.entries();
+// console.log(items.next().value);
+
+// --------------------------------
+// const vajla = [1,2,3,4,5];
+
+// console.log(vajla.every(ele => ele < 10))
+
+const fillM = [1,2,3,4,5];
+
+console.log(fillM.fill(0,1,3))
